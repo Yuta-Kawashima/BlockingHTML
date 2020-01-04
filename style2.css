@@ -1,0 +1,207 @@
+body{
+    width:1080px;
+    margin:auto;
+    background-color: lightyellow;
+}
+.start{
+    float:left;
+    margin-top:0px;
+}
+header{
+    border:solid 2px darkblue;
+    color:darkblue;
+    width: 1080px;
+}
+header h1{
+    font-size:25px;
+    margin:auto;
+    float:left;
+    padding-top: 10px;
+    border:solid 2px red;
+}
+header span{
+    font-size:24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.head_list{
+    border: solid 2px lightskyblue;
+    width:25%;
+    height: 50px;
+    margin-left:auto;
+}
+.head_list ul{
+    height: 40px;
+    border:solid green 2px;
+    margin-top:3px;
+}
+.head_list li{
+    line-height:30px;
+    list-style: none;
+    margin-top:-10px;
+    display:inline-block;
+    padding:0px 15px 0px 0px;
+}
+.backColor{
+    width:1080px;
+    height:400px;
+    border: solid 2px mediumblue;
+    position: absolute;
+
+}
+.backImg{
+    width: 75%;
+    margin:auto;
+    height:400px;
+    border: solid 2px lightskyblue;
+    position: relative;
+}
+.subTitle{
+    width: 80%;
+    margin:auto;
+    margin-top: 100px;
+    border:solid black 2px;
+}
+.subTitle p{
+    text-align: center;
+    font-size: 40px;
+}
+.subTitle a{
+    display:block;
+    text-align: center;
+    font-size:24px;
+}
+
+.contents{
+    width:100%;
+    border:solid 2px gray;
+}
+.contents ul{
+    list-style: none;
+}
+.contents li{
+    display: table-cell;
+    padding-right:35px
+
+}
+.content{
+    width: 200px;
+	height: 200px;
+    border-radius: 50% ;
+    margin:auto;
+    padding:10px 10px 10px 10px;
+
+}
+.text{
+    border:solid 2px black;
+    margin-top: 65px;
+}
+.red{
+    border:solid 2px red;
+    text-align: center;
+}
+.green{
+    border:solid 2px green;
+    text-align: center;
+    
+}
+.yellow{
+    border:solid 2px yellow;
+    text-align: center;
+}
+.black{
+    border:solid 2px black;
+    text-align: center;
+}
+
+/*IntroduceパートのCSS。文章に対するレイアウトのデザイン。*/
+.Introduce{
+    border:solid 2px sienna;
+    width:100%;
+}
+.Msg{
+    width:75%;
+    margin:auto;
+    margin-top:-10px;
+}
+.title{
+    text-align: center;
+    font-size: 26px;
+}
+.title span{
+    text-decoration: underline;
+}
+.textContent{
+    text-align: left;
+    margin-top:-10px
+}
+
+.redText{
+    color:red;
+    font-weight: bold;
+}
+.blueText{
+    color:blue;
+    font-weight: bold;
+}
+
+/*ContactパートのCSS。フォームの成形。ボタンのレイアウト操作。*/
+.Contact{
+    border:solid 2px red;
+    width:100%;
+}
+
+.form{
+    width:75%;
+    margin:auto;
+    margin-top:20px;
+    border:solid 2px green;
+}
+.formContent{
+    margin:auto;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 20px;
+}
+
+label{
+    display:inline-block;
+    width: 300px;
+    text-align: left;
+}
+.quesLabel{
+    vertical-align: top;
+}
+input, textarea{
+    width:300px;
+    box-sizing: border-box;
+}
+textarea{
+    height:150px;
+}
+
+.button{
+    width: 130px;
+    text-align: right;
+}
+button{
+    height:40px;
+    width: 100px;
+}
+
+footer{
+    width: 100%;
+    border:solid 2px #ff99ff;
+    height:30px;
+}
+
+.thanks{
+    font-size:24px;
+}
+.thanksMsg{
+    float:left;
+}
+.followMe{
+    float:right;
+}
