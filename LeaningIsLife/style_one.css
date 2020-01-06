@@ -1,0 +1,329 @@
+body{
+    width:100%;
+    margin:auto;
+    background-image: url(./img/b080.jpg);
+}
+/*コピペ。付箋風見出し*/
+h2 {
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+    width:200px;
+    box-shadow :0px 0px 10px rgb(143, 143, 143);
+}
+/*ここまで*/
+.start{
+    margin-top:0px;
+    z-index: 5;
+}
+header{
+    width:100%;
+    height: 60px;
+    margin:auto;
+    background-color: darkblue;
+    color:white;
+    opacity: 0.7;
+}
+header h1{
+    padding-left: 2%;
+    font-size:35px;
+    margin:auto;
+    float:left;
+    padding-top: 10px;
+    font-family: "HG行書体",cursive;
+    text-decoration: underline;
+}
+header span{
+    font-size:24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.head_list{
+    width:28%;
+    height: 50px;
+    margin-left:auto;
+}
+.head_list ul{
+    height: 40px;
+    width: 100%;
+    margin-top:7px;
+    float:right;
+}
+.head_list li{
+    line-height:30px;
+    width:30%;
+    list-style: none;
+    text-align: center;
+    margin-top:-10px;
+    display:inline-block;
+}
+
+.backColor{
+    width: 100%;
+    height:400px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+
+}
+.backImg{
+    margin:auto;
+    height:400px;
+}
+.backColor img{
+    display:block;
+    margin:0 auto;
+    width: 75%;
+    height:400px;
+    z-index: 2;
+}
+.subTitle{
+    width: 100%;
+    display: inline-block;
+    margin:0 auto;
+    margin-top: 100px;
+    z-index: 3;
+    background-color: black;
+    position: relative;
+    background:rgba(0, 0, 0, 0.6);
+}
+.subTitle p{
+    width: 75%;
+    margin:auto;
+    color:white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+}
+.subTitle a{
+    display:block;
+    color: white;
+    text-align: center;
+    font-size:30px;
+}
+.subTitle span{
+    font-family: "HG行書体",cursive;
+}
+
+
+/*コンテンツタグ。今回は学習方法に関するまとめ。3種類*/
+.contents{
+    width:90%;
+    margin:auto;
+}
+.contents h3{
+    display: block;
+    margin-left:10px;
+}
+.contents ul{
+    width: 90%;
+    margin:auto;
+    margin-top:-40px;
+    list-style: none;
+    text-align: center;
+
+    /*コピペ*/ 
+    background:  #f1f8ff;
+    box-shadow: 0px 0px 0px 10px #f1f8ff;/*線の外側*/
+    border: dashed 2px #668ad8;/*破線*/
+    box-shadow :0px 0px 10px rgb(143, 143, 143);
+    border-radius: 9px;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+.contents  li{
+    display: inline-block;
+    vertical-align: top;
+    padding:0px 12px 0px 12px;
+    width: 30%;
+    height:300px;
+}
+
+.contents ul li{
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+.content{
+    margin:auto;
+    width:90%;
+}
+.content a{
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: "HG行書体",cursive;
+}
+.content img{
+    padding-left:3%;
+    text-align: center;
+    width: 250px;
+    height:150px;
+}
+.text{
+    text-align: center;
+}
+
+
+
+/*IntroduceパートのCSS。文章に対するレイアウトのデザイン。*/
+.Introduce{
+    margin:auto;
+    width:85%;
+}
+.Msg{
+    width:75%;
+    
+    /*コピペ*/
+    position: relative;
+    padding: 2.5em 1em;
+    border: solid 2px #668ad8;
+    background-color: #f1f8ff;
+    border-radius: 3px 0 3px 0;
+    box-shadow :0px 0px 10px rgb(143, 143, 143);
+    
+    margin:auto;
+}
+
+.Msg:before,.Msg:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #668ad8;
+    border-radius: 50%;
+}
+.Msg:after {
+    top:-12px;
+    left:-12px;
+}
+.Msg:before {
+    bottom:-12px;
+    right:-12px;
+}
+.Msg p { 
+    padding:0px 20px 0px 20px;
+}
+/*ここまでコピペ。角に丸*/
+
+.title{
+    text-align: center;
+    font-size: 26px;
+
+    /*コピペ*/
+    color: #364e96;/*文字色*/
+    padding: 0.5em 0;/*上下の余白*/
+    border-top: solid 3px #364e96;/*上線*/
+    border-bottom: solid 3px #364e96;/*下線*/
+    background-color: #f1f8ff;
+}
+.title span{
+    text-decoration: underline;
+}
+.textContent{
+    text-align: left;
+    margin-top:-10px
+}
+
+.redText{
+    color:red;
+}
+.blueText{
+    color:blue;
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+
+/*ContactパートのCSS。フォームの成形。ボタンのレイアウト操作。*/
+.Contact{
+    width:90%;
+    margin:auto;
+}
+
+.form{
+    width:75%;
+    margin:auto;
+    margin-top:20px;
+}
+.formContent{
+    margin:auto;
+    text-align: center;
+    padding-top:10px;
+}
+
+label{
+    display:inline-block;
+    width: 90%;
+    text-align: left;
+}
+.quesLabel{
+    vertical-align: top;
+}
+input, textarea{
+    width:90%;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    /*コピペ。入力欄のデザイン*/
+    padding: 10px 15px; /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border: 2px solid #ddd; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+    /*ここまで*/
+}
+textarea{
+    height:150px;
+}
+
+.button{
+    width: 130px;
+    text-align: center;
+}
+button{
+    height:40px;
+    width: 100px;
+}
+/*コピペ。ボタンデザイン*/
+.btn-stitch {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px #668ad8;
+    border: dashed 1px #FFF;
+  }
+  
+.btn-stitch:hover {
+    border: dotted 1px #FFF;
+}
+/*ここまで*/
+
+
+footer{
+    width: 100%;
+    height:30px;
+    border:solid 2px #ff99ff;
+}
+
+.thanks{
+    width:90%;
+    background-color: darkblue;
+}
+.thanksMsg{
+    float:left;
+}
+.followMe{
+    float:right;
+}
