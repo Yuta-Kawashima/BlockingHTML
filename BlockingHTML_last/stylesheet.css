@@ -1,7 +1,7 @@
 body{
     width:100%;
     height:100%;
-    background-image: url();
+    background-image: url(./img/b003.gif);
     background-size: cover;
 
 }
@@ -9,42 +9,66 @@ header{
     margin:auto;
     height:3em;
     width:100%;
-    background-color:rgba(255,255,255,0.5);
-    box-shadow :0px 0px 10px rgb(143, 143, 143);
 }
 header h1{
     font-size:1.5em;
     vertical-align: center;
 }
 .logo{
-    height:3em;
+    height:4em;
 }
+.logo h1{
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: serif;
+
+    color: #010079;
+    text-shadow: 0 0 5px white;
+    border-left: solid 7px #010079;
+    background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    margin-bottom: 10px;
+    background-color:rgba(255,255,255,0.5);
+    box-shadow :0px 0px 10px rgb(143, 143, 143);
+  }
+
 .sideMenu{
-    width:30%;
+    width:11%;
     height:100%;
     float: left;
     margin-left:3px;
 }
 .Myinfo{
     text-align: center;
-
+    margin-bottom: 10px;
 }
-
+.Myinfo ul{
+    margin-left:-25px;
+}
+.Myself h3{
+    text-align: center;
+}
 .Myself img{
     width:auto;
     height:7em;
-    border:black solid 1px;
+    margin-left:15px;
+    margin-top:-10px;
 }
 .Myinfo{
     float:left;
     width:100%;
-    border:solid yellow 1px;
+    margin-top:-10px;
     background-color:rgba(255,255,255,0.5);
 }
 .Myinfo ul{
-    list-style: none;
     text-align: left;
+    margin-left:-14px;
     font-size:12px;
+}
+
+.menu{
+    margin-top:-20px;
 }
 
 .menu ul{
@@ -54,12 +78,13 @@ header h1{
 }
 .menu li{
     width:100%;
+    text-align: center;
     padding-bottom:0.5em;
 }
 .menu button{
     font-size:1em;
     height:2em;
-    width:50%;
+    width:85%;
     text-align: left;
     padding-left:1.5em;
     box-shadow :0px 0px 5px rgb(143, 143, 143);
@@ -80,7 +105,6 @@ header h1{
 
 .Reading{
     width:43%;
-    border:solid green 1px;
     margin-left:1%;
     float:left;
 }
@@ -91,22 +115,30 @@ header h1{
     display:none;
     margin-bottom: 25px;
     padding:10px 0px 10px,0px;
+    
 }
 
 .content_img{
     width:25%;
     height:100%;
-    vertical-align: auto;
     float:left;
+    margin-top:10px;
+    margin-left:10px;
 }
-
+.title{
+    width:100%
+}
 .character{
-    width:75%;
+    margin-left: 28%;
+    width:72%;
 }
 .character p{
-    border:solid green 1px;
     width:100%;
-    margin-left:34%;
+}
+
+.main h1{
+    padding-left:20px;
+    font-family: serif;
 }
 
 main p{
@@ -118,5 +150,8 @@ main p{
     float:left;
     width:43%;
     margin-left:1%;
-    border:solid purple 1px;
+}
+
+.bold{
+    font-weight: bold;
 }
